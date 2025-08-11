@@ -20,3 +20,13 @@ Exclusives Name (CK)
 Exclusive Equipment image will also need to be updated.
 
 And as always check translations, and be aware sometimes zilong changes things last minuite.
+
+## Static hosting
+
+To publish the site on GitHub Pages, build the project as static files:
+
+```
+npm run export
+```
+
+The generated `out` directory can be served directly by GitHub Pages.
