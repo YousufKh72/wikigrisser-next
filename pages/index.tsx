@@ -1,7 +1,7 @@
-import { GetStaticProps } from "next";
-import { Layout } from "../components/Layout";
 import React from "react";
-import { DBSingleton, Patch, PatchMap } from "../util/databaseSingleton";
+import type { GetStaticProps } from "next";
+import { Layout } from "../components/Layout";
+import type { Patch, PatchMap } from "../util/databaseSingleton";
 import { PatchSection } from "../components/patch/PatchSection";
 import formatDate from "../util/formatDate.fn";
 import { Img } from "../components/layout/Img";
@@ -52,6 +52,7 @@ const Home = ({ patchMap }: { patchMap: PatchMap }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
+  const { DBSingleton } = await import("../util/databaseSingleton");
   const patchMap = DBSingleton.getInstance().getPatchMap();
 
   return {
