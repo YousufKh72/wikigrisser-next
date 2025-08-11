@@ -1,6 +1,6 @@
 module.exports = {
-  basePath: "",
-  assetPrefix: "",
+  basePath: "/wikigrisser-next",
+  assetPrefix: "/wikigrisser-next/",
   // future: {
   //   webpack5: true,
   // },
