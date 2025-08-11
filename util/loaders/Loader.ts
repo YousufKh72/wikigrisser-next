@@ -11,11 +11,11 @@ export abstract class Loader<T> {
 
   protected getCellValue(cellObj: CellObject | undefined) {
     if (!cellObj) return null;
-    if (cellObj.w) return cellObj.w;
+    if (cellObj.w !== undefined) return cellObj.w;
 
-    if (cellObj.v) return cellObj.v;
+    if (cellObj.v !== undefined) return cellObj.v;
 
-    if (cellObj.f) return cellObj.f;
+    if (cellObj.f !== undefined) return cellObj.f;
 
     return null;
   }
