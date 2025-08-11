@@ -1,6 +1,6 @@
 Wikigrisser Open source Project
 
-https://docs.google.com/spreadsheets/d/12anuYkAchUiGXs26-fHl16vDMbTXt99XrFbZE11sh3o/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/13vk5WD23k2DQjdglmBUdlg6a6cR3ulCiWQoZ2eq7X-Q/edit?usp=sharing
 
 Updating when global release comes out:
 When a units global release comes out some changes will need to be made in the google sheets to reflect the now official names of units, classes and skills
